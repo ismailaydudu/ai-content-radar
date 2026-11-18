@@ -1,0 +1,21 @@
+# Gizli şifre ve token dosyaları (EN ÖNEMLİSİ)
+.env
+.env.local
+.env*.local
+veri_motoru/.env
+frontend/.env.local
+
+# Python sanal ortam ve önbellek dosyaları
+veri_motoru/env/
+veri_motoru/__pycache__/
+veri_motoru/.cache/
+*.pyc
+
+# Next.js ve Node.js bağımlılıkları
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+
+# Sistem dosyaları
+.DS_Store
+Thumbs.db
